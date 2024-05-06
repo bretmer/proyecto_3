@@ -1,18 +1,18 @@
 ## Ejercicios
 
 # ejemplo 1
-# crear un programa que pida la nota del alumno
-nota_alumno:int=int(input("ingrese su nota: "))
-print("aprobado" if (nota_alumno :=13)<13 else "desaprobado" )
+cadena:str = "python"
+if (cantidad := len(cadena)) > 5: print("tiene mas de 5 caracteres") 
+else:print("tiene menos de 5 caracteres")
 
-print("---------------------------")
+
 
 # ejemplo 2
-# crear un programa que pida su edad a un usuario
-edad_usuario:int=int(input("ingrese su edad: "))
-print("ya eres mayor de edad" if (edad_usuario :=18)<18 else "eres menor de edad" )
+print(nombre := input("ingrese su nombre completo: "))
 
 
 
-
+# ejemplo 3
+suma=12+15
+if(resultado := suma) > 10:print(f'La suma es {suma}')
 
